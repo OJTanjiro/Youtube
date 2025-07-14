@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --red:red;
+    --blue:blue;
+    --black:black;
+    --green:green;
+    --gradient:linear-gradient(90deg,rgb(24, 24, 24) 6%, rgb(39, 38, 38) 36%, rgb(21, 21, 21) 83%);
+}
+
+body{
+    background: var(--gradient);
+}
+
+.header{
+    /* border: 2px solid var(--red); */
+    margin-left: 50px;
+    font-size: 25px;
+    display: flex;
+ 
+}
+
+.Youtube{
+    color: white;
+}
+
+.icon{
+    color: var(--red);
+    fill: white;
+    /* background: white; */
+    /* border: black; */
+}
+
+.search-bar{
+    /* margin-left: 35%; */
+}
+
+.main-video{
+    /* border: 2px solid var(--black); */
+    height: 500px;
+    width: 900px;
+    margin-top: 80px;
+    margin-left: 25px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.image{
+    height: 100%;
+    width: 100%;
+     background: url(./images/thumbnail.webp);
+    background-size: cover;
+    background-position: bottom left;
+    object-fit: cover;
+}
+
+.images{
+    border: 2px solid white;
+    margin-top: 100px;
+    margin-right: 400px;
+    width: 50%; 
+    height: 100px;
+    background: url(./images/sidebar\ images.avif);
+    background-size: cover;
+}
+
+.ui{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar{
+    
+}
+
+.captions{
+    color: white;
+}
+
+.creator{
+    color: grey;
+}
