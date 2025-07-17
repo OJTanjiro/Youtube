@@ -75,11 +75,18 @@ body{
 
 .sidebar{
     /* border: 2px solid white; */
+     position: sticky;
      margin-top: 130px;
+      top: 50px;
+     left: 50px;
+     /* width: 50px; */
+     /* height: 100%; */
+
      margin-left: 50px;
      /* gap: 10px; */
      /* margin: 0%; */
-}
+    }
+    
 
 .captions{
     color: white;

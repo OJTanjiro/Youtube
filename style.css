@@ -5,32 +5,63 @@
 }
 
 :root{
-     --gradient2: radial-gradient(circle,rgba(0, 0, 0, 1) 0%, rgba(97, 97, 97, 1) 48%, rgba(0, 0, 0, 1) 100%);
+     --gradient2: linear-gradient(90deg,rgba(255, 255, 255, 1) 0%, rgba(227, 202, 202, 1) 100%);
      --red:red;
      --yellow:yellow;
      --white:white;
      --black:black;
+     --blue:blue;
+     --gray:rgba(128, 128, 128, 0.3);
 }
 
 body{
     background: var(--gradient2);
+    scroll-behavior: smooth;
+}
+
+.header{
+    background: lightgray;
+     display: flex;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    top:0;
+   
+}
+
+.Youtube{
+    /* margin-left: 50px; */
+    margin-right: 100px;
+}
+
+.search-bar{
+    margin-left: 60px;
+}
+
+.icons{
+    margin-left: 100px;
 }
 
 .box-holder{
-    border: 2px solid var(--red);
-     margin-left: 250px;
+    /* border: 2px solid var(--blue); */
+     margin-left: 100px;
+     margin-top: 50px;
      display: flex;
      justify-content: center;
-     /* align-items: center; */
+     flex-wrap: wrap;
+     flex-direction: row;
+     gap: 40px;
+     
 }
 
-.image-holders{
+.video-display{
     background: var(--yellow);
-    background-size: cover;
-    background-position: center;
-    height: 230px;
-    width: 380px;
+    /* background-size: cover; */
+    /* background-position: center; */
+    height: 180px;
+    width: 320px;
     border-radius: 20px;
+  
    
 }
 
@@ -39,11 +70,74 @@ body{
 }
 
 .left-sidebar{
-    border: 2px solid var(--white);
-    color: white;
-    margin-bottom: 400px;
+    /* border: 2px solid var(--black); */
+    color: var(--black);
+    background: lightgrey;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    padding: 20px;
+    position: fixed;
+    top: 40px;
+    left: 0;
+    height: 675px;
+    /* justify-content: space-between; */
+    
+    /* margin-bottom: 400px; */
 }
 
 .ui{
+    /* border: 2px solid var(--red); */
     display: flex;
+    gap: 50px;
+    /* flex-wrap: wrap; */
+}
+.video {
+    display: flex;
+    flex-direction: column;
+}
+.timestamp {
+    background: var(--black);
+    width: 23%;
+}
+.video-description {
+    display: flex;
+    flex-direction: row;
+}
+.video-user-icon {
+    border: 3.5px solid var(--black);
+    border-radius: 50%;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    font-size: 35px;
+    align-items: center;
+    color: var(--blue);
+    align-items: center;
+    justify-content: center;
+}
+
+.Home{
+    padding: 15px;
+}
+
+
+.Shorts{
+    padding: 15px;
+}
+
+
+.Supcriptions{
+    padding: 15px;
+}
+
+
+.Account{
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.line{
+    border: 2px solid var(--gray);
+    /* width: 100%; */
 }
