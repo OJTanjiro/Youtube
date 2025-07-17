@@ -15,6 +15,7 @@
 
 body{
     background: var(--gradient2);
+    scroll-behavior: smooth;
 }
 
 .header{
