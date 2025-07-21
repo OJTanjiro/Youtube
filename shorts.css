@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --red:red;
+    --green:green;
+    --grey:grey;
+    --black:black;
+}
+
+.box-holder{
+    border: 2px solid var(--black);
+}
+
+.box{
+    border: 2px solid var(--red);
+    height: 400px;
+    width: 250px;
+     justify-content: center;
+    align-items: center;
+}
+
+.Youtube{
+    font-size: 30px;
+}
+
+.header{
+    /* border: 2px solid var(--red); */
+    margin-left: 50px;
+    font-size: 25px;
+    display: flex;
+   
+}

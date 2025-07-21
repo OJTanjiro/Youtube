@@ -9,6 +9,8 @@
     --blue:blue;
     --black:black;
     --green:green;
+    --yellow:yellow;
+    --grey:rgb(128, 128, 128, 0.3);
       --gradient2: linear-gradient(90deg,rgba(255, 255, 255, 1) 0%, rgba(227, 202, 202, 1) 100%);
     --gradient:linear-gradient(90deg,rgb(24, 24, 24) 6%, rgb(39, 38, 38) 36%, rgb(21, 21, 21) 83%);
 }
@@ -25,6 +27,21 @@ body{
     display: flex;
  
 }
+
+.icon2{
+    
+}
+
+.icon2:hover{
+    background: var(--grey);
+    border-radius: 100px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .Youtube{
     color: white;
@@ -54,7 +71,7 @@ body{
 .image{
     height: 100%;
     width: 100%;
-     background: url(./images/thumbnail.webp);
+     background: var(--yellow);
     background-size: cover;
     background-position: bottom left;
     object-fit: cover;
@@ -66,7 +83,7 @@ body{
     margin-right: 400px;
     width: 50%; 
     height: 100px;
-    background: url(./images/sidebar\ images.avif);
+    background: var(--yellow);
     background-size: cover;
 }
 
