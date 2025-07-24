@@ -1,3 +1,3 @@
-[Project Overview](preview)
+[Project Overview](preview.png)
 # Youtube
 A billion dollar project.
